@@ -1,0 +1,2 @@
+Place ripped BIOS file here
+Default name: SCPH1001.bin

@@ -1,0 +1,6 @@
+[submodule "vcpkg"]
+	path = vcpkg
+	url = https://github.com/microsoft/vcpkg.git
+[submodule "data/PeterLemon"]
+	path = data/PeterLemon
+	url = https://github.com/PeterLemon/PSX.git

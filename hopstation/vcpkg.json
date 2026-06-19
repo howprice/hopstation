@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "name": "hopstation",
+    "version-semver": "0.1.0",
+    "dependencies": [
+        {
+            "name": "sdl3",
+            "platform": "windows | osx"
+        },
+        {
+            "name": "sdl3",
+            "features": ["vulkan"],
+            "platform": "linux"
+        }
+    ]
+}

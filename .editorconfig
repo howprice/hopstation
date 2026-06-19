@@ -1,0 +1,16 @@
+[*.{h,cpp,inl}]
+charset = utf-8
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.md]
+charset = utf-8
+indent_style = spaces
+indent_size = 2
+
+[CMakeLists.txt]
+charset = utf-8
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true

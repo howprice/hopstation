@@ -1,0 +1,1 @@
+Use this folder as the working directory when running hopstation or psx-test.

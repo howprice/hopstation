@@ -1,0 +1,27 @@
+# default build directory
+build/
+
+# Ignore all files in the data directory, but don't ignore placeholder file (ensures Visual Studio debug directory is present)
+data/*
+!data/placeholder.txt
+!data/*/
+data/*/*
+!data/*/placeholder.txt
+
+# Don't ignore test data
+!data/test
+
+# SDL game controller mappings https://github.com/mdqinc/SDL_GameControllerDB
+!data/gamecontrollerdb.txt
+
+tmp/
+
+imgui.ini
+
+# Ignore all binaries in bin/ except readme.txt files
+bin/*
+!bin/*/
+bin/*/*
+!bin/*/readme.txt
+data/test/hello_xa.*
+data/test/redux/cdrom
