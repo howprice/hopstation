@@ -4,3 +4,6 @@
 [submodule "data/PeterLemon"]
 	path = data/PeterLemon
 	url = https://github.com/PeterLemon/PSX.git
+[submodule "data/SDL_GameControllerDB"]
+	path = data/SDL_GameControllerDB
+	url = https://github.com/mdqinc/SDL_GameControllerDB.git

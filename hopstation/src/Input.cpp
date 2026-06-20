@@ -178,7 +178,7 @@ void Input::Init()
 
 	s_disableLeftMouseButtonUntilRelease = false;
 
-	static const char* kGamepadMappingFilename = "gamecontrollerdb.txt";
+	static const char* kGamepadMappingFilename = "SDL_GameControllerDB/gamecontrollerdb.txt";
 	if (FileExists(kGamepadMappingFilename))
 	{
 		int ret = SDL_AddGamepadMappingsFromFile(kGamepadMappingFilename); // https://github.com/gabomdq/SDL_GameControllerDB
